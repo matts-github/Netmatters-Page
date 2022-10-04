@@ -1,0 +1,379 @@
+// The Accreditations Section 
+//News
+.bar {
+    box-shadow: 0 5px 35px #b3b0b0;
+}
+.container:before {
+    content: " ";
+    display: table;
+}
+.container:before {
+    content: " ";
+    display: table;
+}
+.cms-block ol li, .cms-block ul li, .cms ol li, .cms ul li {
+    padding-left: 20px;
+    line-height: 24px;
+}
+.container:after {
+    clear: both;
+}
+.bar ul>li>span:after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
+.container:before {
+    content: " ";
+    display: table;
+}
+.article-list {
+    // overflow: hidden;
+}
+.col-md-4 .software:hover {
+    background-color: #67809f;
+}
+.col-md-4 .software:hover .icon {
+    color: #fff;
+}
+.col-md-4 .software:hover
+
+.col-md-4 .it:hover {
+    background-color: #4183d7;
+}
+.col-sm-6 .telecoms:hover {
+    background-color: #d64541;
+}
+.col-sm-6 .web:hover {
+    background-color: #926fb1;
+}
+.col-sm-6 .security:hover {
+    background-color: #f62459;
+}
+.col-sm-6 .security:hover {
+    background-color: #926fb1;
+}
+.service-list .block:hover {
+    color: #fff;
+    border-color: transparent;
+}
+// Inside of box 1 hover styles
+.service-list .block.software:hover>span.icon#bespoke {
+    background-color: #fff;
+}
+.service-list .block.it:hover>span.icon#desk {
+    background-color: #fff;
+}
+.service-list .block.software:hover>span.h2 {
+    color: #fff;
+}
+.service-list .block.software:hover>span.p {
+    color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    background-color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    color: #67809f;
+}
+// End of inside of box 1 hover styles
+// Box 3
+.digital:hover>span .icon {
+    background-color: #fff;
+}
+.service-list .block.software:hover>span.h2 {
+    color: #fff;
+}
+.service-list .block.software:hover>span.p {
+    color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    background-color: #fff;
+}
+.service-list .block.telecoms:hover>span.icon#ph {
+    background-color: #fff;
+    color: #D64541;
+    padding-top: 100px;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    color: #67809f;
+}
+
+.service-list .block.it>span.icon:hover {
+    background-color: #fff;
+}
+.service-list .block.it>span.icon#desk {
+    background-color: #fff;
+    padding-top: 18px;
+}
+.service-list .block.digital>span.icon {
+    background-color: #fff;
+}
+.service-list .block.telecoms>span.icon:hover {
+    background-color: #fff;
+}
+.service-list .block.web:hover>span.icon#w {
+    background-color: #fff;
+    color: #926fb1;
+}
+.row:before {
+    content: " ";
+    display: table;
+}
+.article-list .item {
+    font-size: .8125rem;
+    margin-top: 30px;
+}
+.article-list .item .img-container {
+    position: relative;
+    transition: 0.2s;
+}
+.category, .article-list .item .img-container .category {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #fff;
+    background-color: #333645;
+    font-size: .75rem;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.article-list .item.software .img-container .category {
+    background-color: #67809f;
+}
+.article-list .item .img-container .category:hover {
+    text-decoration: underline;
+}
+.article-list .item .img-container .img img {
+    transition: all .25s cubic-bezier(.215,.61,.255,1);
+}
+.article-list .item .img-container .img img {
+    width: 100%;
+    height: auto;
+}
+.article-list .item .block:not(.top) {
+    border-top: 0;
+    border-radius: 0 3px 3px 0;
+}
+.date {
+    color: #666;
+}
+.article-list .item .block p {
+    line-height: 1.375rem;
+    font-size: .8125rem;
+    color: #333645;
+    text-align: left;
+}
+.btn.btn-web {
+    color: #fff;
+    background-color: #926fb1;
+    border-color: #926fb1;
+}
+.btn.btn-it {
+    color: #fff;
+    background-color: #4183d7;
+    border-color: #4183d7;
+}
+.article-list .item.it .block h3 a {
+    color: #4183d7;
+}
+.article-list .item .block .btn {
+    font-weight: 400;
+}
+.article-list .item .user {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+.user {
+    display: table;
+    width: 100%;
+    font-size: .875rem;
+}
+.user>.avatar {
+    width: 1%;
+    border-radius: 50%;
+    // overflow: hidden;
+}
+.user>* {
+    display: table-cell;
+    vertical-align: middle;
+}
+.cms-block img {
+    max-width: 100%;
+    height: auto;
+}
+.user>.avatar img {
+    max-width: 47px;
+}
+.user>.details {
+    padding-left: 20px;
+    line-height: 1.375rem;
+}
+.cms-block strong:not(.btn) {
+    font-weight: 600;
+    color: #333645;
+}
+.article-list .item.it .img-container .category {
+    background-color: #4183d7;
+}
+.article-list .item.it .img-container .category:hover {
+    text-decoration: underline;
+}
+.block {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 30px;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, .10);
+}
+.article-list .item .block h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // box-shadow: inset -20px 0px 17px 14px #e6e6e6;
+}
+@media screen and (min-width: 768px) and (max-width: 1259px) {
+    .article-list .item .block h3 {
+        min-height: 3rem;
+    }
+    .article-list .item p {
+        min-height: 66px;
+    }
+    .latest-articles .article-list>.row>:last-child {
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) {
+    .article-list .item .img-container img:hover {
+        opacity: .75;
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 1260px) {
+   
+}
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+    .modal-content {
+        box-shadow: 0 5px 15px rgb(0, 0, 0 / 50%);
+    }
+    .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+}
+.article-list>* {
+}
+.article-list .item .img-container .img {
+    display: block;
+    border-radius: 0 3px 3px 0;
+    // overflow: hidden;
+    position: relative;
+}
+.service-list .block:hover {
+    color: #fff;
+    border-color: transparent;
+}
+.service-list .block.digital:hover, .service-list .block.digital>span.icon {
+    background-color: #2ecc71;
+}
+.service-list .block.digital:hover>span.icon {
+    background-color: #fff;
+    color: #2ecc71;
+}
+.service-list .block:hover>span.h2 {
+    color: #fff;
+}
+.service-list .block:hover>span.p {
+    color: #fff;
+}
+.service-list .block.digital:hover>span.btn-container .btn {
+    color: #2ecc71;
+    background-color: #fff;
+}
+.service-list .block.telecoms:hover, .service-list .block.telecoms>span.icon#ph {
+    background-color: #d64541;
+    // padding-top: 18px;
+}
+.service-list .block.telecoms:hover>span.icon {
+    background-color: #fff;
+    color: #d64541;
+}
+.service-list .block.telecoms:hover>span.btn-container .btn {
+    color: #d64541;
+}
+.service-list .block.web:hover>span.icon {
+    background-color: #fff;
+    color: #926fb1;
+}
+.service-list .block.web:hover>span.btn-container .btn {
+    color: #926fb1;
+}
+.service-list .block.security:hover, .service-list .block.security>span.icon {
+    background-color: #f62459;
+}
+.service-list .block.security:hover>span.icon {
+    background-color: #fff;
+    color: #f62459;
+}
+.service-list .block.security:hover>span.btn-container .btn {
+    color: #f62459;
+}
+.service-list .block.it:hover, .service-list .block.it>span.icon#desk {
+    background-color: #4183d7;
+    // padding-top: 20px;
+}
+.service-list .block.it:hover>span.icon {
+    background-color: #fff;
+    color: #4183d7;
+}
+.service-list .block:hover>span.btn-container .btn {
+    border-color: #fff;
+    background-color: #fff;
+    color: #333645;
+}
+.service-list .block.it:hover>span.btn-container .btn {
+    color: #4183d7;
+}
+.service-list .block>span.icon#sec {
+    background-color: #f62459;
+    padding-top: 18px;
+}
+.service-list .block.security:hover>span.icon#sec {
+    background-color: #fff;
+    color: #f62459;
+} 
+.service-list .block>span.icon#dev {
+    background-color: #926fb1;
+    padding-top: 18px;
+}
+.service-list .block.web:hover>span.icon#dev {
+    background-color: #fff;
+    color: #926fb1;
+} 
